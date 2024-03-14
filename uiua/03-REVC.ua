@@ -1,8 +1,8 @@
 InputTest ← "AAAACCCGGT"
 Input ← &fras "../inputs/03-REVC.txt"
 
-Revc ← ⊏: ∩⇌ ⊙(⊗:). "ACGT"
+Revc ← ⊏: ∩⇌ ⟜(⊗:) "ACGT"
 
-⍤ . ≍ "ACCGGGTTTT" Revc Inputtest
+⍤ . ≍ "ACCGGGTTTT" Revc InputTest
 
 &p $"_" Revc Input

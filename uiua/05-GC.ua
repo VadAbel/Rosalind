@@ -10,12 +10,12 @@ InputTest ← $ >Rosalind\_6404
 
 Input ← &fras "../inputs/05-GC.txt"
 
-ParseInput ← ⊜(⊟⊃(⊢|□⊐/⊂↘1) ⊜□≠@\n.) ≠@>.
+ParseInput ← ⊜(⊃(□/◇⊂↘1|⊢) ⊜□≠, @\n)≠, @>
 
-Gc ← ⊃(°□⋅⊡:|⊡) ⊢⍖.∵(×100÷⊃⧻/+⊐∊:"CG") ⊃(⊢⇌|⊢)⍉ ParseInput
+Gc ← ⊡⊙:⟜⊡ ⊢⍖.∵(×100÷⊃⧻ /+◇∊:"GC") ParseInput
 
 ResultTest ← $ Rosalind\_0808
              $ 60.91954022988506
-⍤ . ≍ ResultTest $"_\n_"⊙$"_" Gc InputTest
+⍤ . ≍ ResultTest $"_\n_" Gc InputTest
 
-&p $"_\n_"⊙$"_" Gc Input
+&p $"_\n_" Gc Input

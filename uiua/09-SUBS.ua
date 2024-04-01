@@ -6,7 +6,7 @@ Input ← &fras "../inputs/09-SUBS.txt"
 ParseInput ← °⊟⇌⊜□≠,@\n
 
 Subs ← (
-  ⊙(⟜(+1⇡⧻)≡□◇◫)⟜◇⧻
+  ⟜(⟜(+1⇡⧻)≡□◇(◫⧻))
   ▽⌕
   /◇⊂⍚°⋕↘1♭≡⊂□@ 
 ) ParseInput

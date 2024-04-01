@@ -17,15 +17,15 @@ Input ← &fras "../inputs/10-CONS.txt"
 
 ParseInput ← (
   ⊜□≠,@>
-  ≡(□/◇⊂↘1◇⊜□≠,@\n)
+  ⍚(/◇⊂↘1⊜□≠,@\n)
 )
 
 Cons ← (
   "ACGT"
-  ⟜(/+≡(◇⊞∊)¤)                      # Count profile matrix
-  ⟜(□⊏≡(⊢⍖)⍉,)                      # Determine consensus string
-  ≡(□◇⊂⊂):@:⊙(≡(□/◇⊂♭≡⊂□@ )∵(□°⋕):) # Format profile matrix
-  /◇⊂↘1♭≡⊂@\n⊂:                     # Format output
+  ⟜(/+≡(◇⊞∊)¤)                        # Count profile matrix
+  ⟜(□⊏≡(⊢⍖)⍉,)                        # Determine consensus string
+  ≡(□◇⊂⊂):@:⊙(≡(□/◇⊂♭) ∵⊂□@  ∵(□°⋕):) # Format profile matrix
+  /◇⊂↘1♭≡⊂@\n⊂:                       # Format output
 ) ParseInput
 
 ResultTest ← $ ATGCAACT

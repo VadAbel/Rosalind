@@ -22,7 +22,7 @@ ParseInput ← (
 
 Cons ← (
   "ACGT"
-  ⟜(/+≡(◇⊞∊)¤)                        # Count profile matrix
+  ⟜(/+≡(◇⊞∈)¤)                        # Count profile matrix
   ⟜(□⊏≡(⊢⍖)⍉,)                        # Determine consensus string
   ≡(□◇⊂⊂):@:⊙(≡(□/◇⊂♭) ∵⊂□@  ∵(□°⋕):) # Format profile matrix
   /◇⊂↘1♭≡⊂@\n⊂:                       # Format output
@@ -36,3 +36,4 @@ ResultTest ← $ ATGCAACT
 ⍤ . ≍ ResultTest ∘ Cons InputTest
 
 &p Cons Input
+&p Cons InputTest

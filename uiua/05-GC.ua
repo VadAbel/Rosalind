@@ -12,7 +12,7 @@ Input ← &fras "../inputs/05-GC.txt"
 
 ParseInput ← ⊜(⊃(□/◇⊂↘1|⊢) ⊜□≠, @\n)≠, @>
 
-Gc ← ⊡⊙:⟜⊡ ⊢⍖.∵(×100÷⊃⧻ /+◇∊:"GC") ParseInput
+Gc ← ⊡⊙:⟜⊡ ⊢⍖.∵(×100÷⊃⧻ /+◇∈"GC") ParseInput
 
 ResultTest ← $ Rosalind\_0808
              $ 60.91954022988506

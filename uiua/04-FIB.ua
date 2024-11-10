@@ -1,5 +1,5 @@
 InputTest ← "5 3"
-Input ← &fras "../inputs/04-FIB.txt"
+Input     ← &fras "../inputs/04-FIB.txt"
 
 ParseInput ← °⊟ ⊜⋕ ≠, @ 
 

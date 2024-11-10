@@ -1,5 +1,5 @@
 InputTest ← "GATGGAACTTGACTACGTAAATT"
-Input ← &fras "../inputs/02-RNA.txt"
+Input     ← &fras "../inputs/02-RNA.txt"
 
 Rna ← ⊏:⊙(⊗:) "ACGU" "ACGT"
 

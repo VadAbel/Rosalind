@@ -1,5 +1,5 @@
 InputTest ← "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
-Input ← &fras "../inputs/01-DNA.txt"
+Input     ← &fras "../inputs/01-DNA.txt"
 
 Dna ← ≡/+ ⊞= "ACGT"
 
